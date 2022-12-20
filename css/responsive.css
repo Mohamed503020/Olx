@@ -1,0 +1,163 @@
+/*-------------------small mobile--------------*/
+@media(max-width: 445px){
+
+
+    /*-----main slider---------*/
+    .main-slider .carousel-control-next-icon, .main-slider  .carousel-control-prev-icon {
+        display: none;
+
+}
+    /*---------------- product details page---------------*/
+    .product-details li{
+        font-size: 15px;
+    }
+    .product-details li span{
+        font-size: 12px;
+    }
+    /*----------profile page -------------*/
+    .profile-nav h2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.profile-nav li {
+    font-size: 12px;
+}
+.profile-nav li a{
+    font-size: 12px;
+}
+.profile-nav img {
+    margin-top: 25px;
+    margin-left: 14px;
+    margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+
+}
+.profile-form .image-privew {
+    width: 150px;
+}}
+/*--------------------------- mobile ----------------------------*/
+    @media(min-width:446px)and (max-width:574px){
+        /*-----main slider---------*/
+    .main-slider .carousel-control-next-icon, .main-slider  .carousel-control-prev-icon {
+        display: none;
+        
+    }
+    .owl-carousel .item .product-card{
+        margin-left: 19px;
+        width:390px !important;
+    }
+    /*---------------- product details page---------------*/
+    .product-details li{
+        font-size: 18px;
+    }
+    .product-details li span{
+        font-size: 15px;
+    }
+    /*----------profile page ---------------*/
+    .profile-nav h2 {
+    font-size: 15px !important;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.profile-nav img {
+   width:80px; height: 80px;
+    margin-left: 12px;
+   
+}
+.profile-nav li a{
+    font-size: 12px !important;
+}
+/*------ Update profile page-------*/
+.profile-form .image-privew {
+    width: 180px;
+}
+
+}
+/*---------------------------big mobile----------------------------*/
+    @media(min-width:575px)and (max-width:767px){
+   /*-----main slider---------*/
+.main-slider .carousel-control-prev-icon {
+    padding: 15px 15px;
+    margin-right: 50px;
+    }
+    .main-slider .carousel-control-next-icon {
+    padding: 15px 15px;
+    margin-left: 50px;
+}
+    .owl-carousel .item .product-card{
+        height:550px;
+        width:250px !important;
+    }
+    .owl-carousel .item .product-card .product-price{
+        left:194px;
+    }
+        /*---------------- product details page---------------*/
+    .product-details li{
+        font-size: 20px;
+    }
+    .product-details li span{
+        font-size: 18px;
+    }
+    /*-------profile page-----*/
+    .profile-nav h2 {
+    font-size: 22px !important;
+    margin-bottom: 30px;
+}
+/*------ Update profile page-------*/
+.profile-form .image-privew {
+    width: 210px;
+}
+}
+/*-------- Small Screen---------------------------****/
+@media(min-width:768px)and (max-width:991px){
+    .main-slider .carousel-control-prev-icon {
+    padding: 18px 18px;
+    margin-right: 70px;
+}
+    .main-slider .carousel-control-next-icon {
+    padding: 18px 18px;
+    margin-left: 70px;
+}
+    /*---------------- product details page---------------*/
+    .product-details li{
+        font-size: 29px;
+        display: block;
+    }
+    .product-details li span{
+        font-size: 25px;
+    }
+    /*----------profile page ---------------*/
+    .profile-nav h2 {
+    font-size: 17px !important;
+    margin-bottom: 30px;
+}
+.profile-nav img {
+   width:80px; height: 80px;
+    margin-left: 15px;
+   
+}
+.profile-nav li a{
+    font-size: 14px !important;
+}
+}
+/*///////////////////////---------- Medium Screen------------/////////////----*/
+@media(min-width:992px)and (max-width:1199px){
+    /*---------------- product details page---------------*/
+    .product-details li{
+       display: block;
+    }
+    /*----------profile page ---------------*/
+    .profile-nav h2 {
+    font-size: 20px !important;
+    margin-bottom: 30px;
+}
+}
+/*--------Large Screen------------*/
+@media(min-width:1200px){
+
+    .product-details li{
+       display: block;
+    }
+}
